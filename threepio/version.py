@@ -2,7 +2,7 @@
 Current logger version.
 """
 from __future__ import unicode_literals
-from builtins import str
+from __builtins__ import str
 from subprocess import Popen, PIPE
 from os.path import abspath, dirname
 
